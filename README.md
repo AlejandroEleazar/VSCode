@@ -1,4 +1,6 @@
-![Visual Studio Code](https://code.visualstudio.com/assets/images/code-stable.png)
+<p align="center">
+  <img src="Visual_Studio_Code_icon.svg" width="25%" alt="VSCode">
+</p>
 
 # ⌨️ Visual Studio Code — Guía de atajos de teclado
 
