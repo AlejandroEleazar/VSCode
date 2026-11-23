@@ -1,8 +1,37 @@
-![Visual Studio Code](./vscode-logo.svg)
+![Visual Studio Code](https://code.visualstudio.com/assets/images/code-stable.png)
 
 # ⌨️ Visual Studio Code — Guía de atajos de teclado
 
-> Chuleta de referencia con los atajos más útiles de VS Code para mejorar la productividad al programar.
+**Domina Visual Studio Code y mejora tu productividad con esta guía de referencia de atajos de teclado para Windows, Linux y macOS.**
+
+Una chuleta práctica para programar más rápido, navegar por tus proyectos, editar código, gestionar archivos y aprovechar al máximo las herramientas integradas de VS Code.
+
+![Editor](https://img.shields.io/badge/Editor-Visual%20Studio%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Platforms](https://img.shields.io/badge/Platforms-Windows%20%7C%20Linux%20%7C%20macOS-6C757D?style=for-the-badge&labelColor=343A40&logo=linux&logoColor=white)
+![Shortcuts](https://img.shields.io/badge/Shortcuts-100%2B-2EA44F?style=for-the-badge&logo=keyboard&logoColor=white)
+
+---
+
+## 📚 Índice
+
+1. [Convenciones](#-convenciones)
+2. [Atajos esenciales](#-atajos-esenciales)
+3. [Navegación y búsqueda](#-navegación-y-búsqueda)
+4. [Edición de código](#-edición-de-código)
+5. [Selección múltiple y cursores](#-selección-múltiple-y-cursores)
+6. [Navegación dentro del código](#-navegación-dentro-del-código)
+7. [Archivos y pestañas](#-archivos-y-pestañas)
+8. [Paneles y entorno de trabajo](#-paneles-y-entorno-de-trabajo)
+9. [Terminal integrada](#-terminal-integrada)
+10. [IntelliSense y refactorización](#-intellisense-y-refactorización)
+11. [Depuración](#-depuración-debug)
+12. [Plegar y desplegar código](#-plegar-y-desplegar-código)
+13. [Git y control de versiones](#-git-y-control-de-versiones)
+14. [Markdown](#-markdown)
+15. [Top 20: atajos imprescindibles](#-top-20-atajos-imprescindibles)
+16. [Consejos y recursos](#-consejos-y-recursos)
+
+---
 
 ## 📌 Convenciones
 
