@@ -14,7 +14,6 @@
 | `Win` | Windows | — |
 | `Cmd` | — | Command (`⌘`) |
 
-**Nota:** Las combinaciones se indican como Windows/Linux y macOS cuando son diferentes. Algunos atajos pueden variar según la distribución del teclado, el sistema operativo o las extensiones instaladas.
 
 ## 1. 🚀 Atajos esenciales
 
@@ -214,8 +213,6 @@ Escribe el nuevo nombre.
 | Comparar archivos seleccionados | Desde el menú contextual | Desde el menú contextual |
 | Abrir diferencias de un archivo | Desde Source Control | Desde Source Control |
 
-**Consejo:** Para Git, la paleta de comandos permite buscar acciones como `Git: Commit`, `Git: Push`, `Git: Pull` y `Git: Checkout to...` sin memorizar combinaciones adicionales.
-
 
 ## 13. 📝 Markdown
 
@@ -225,7 +222,7 @@ Escribe el nuevo nombre.
 | Abrir vista previa al lado | `Ctrl + K, V` | `Cmd + K, V` |
 | Formatear documento | `Shift + Alt + F` | `Shift + Option + F` |
 
-## 14. ⭐ Los 20 atajos que deberías memorizar
+## 14. ⭐ 20 atajos utiles
 
 Si estás empezando o quieres mejorar tu productividad, empieza por estos:
 
@@ -251,30 +248,5 @@ Si estás empezando o quieres mejorar tu productividad, empieza por estos:
 | 18 | Reabrir pestaña cerrada | `Ctrl + Shift + T` | `Cmd + Shift + T` |
 | 19 | Iniciar depuración | `F5` | `F5` |
 | 20 | Modo Zen | `Ctrl + K, Z` | `Cmd + K, Z` |
-
-VS Code permite modificar cualquier combinación de teclas.
-
-### Abrir el editor de atajos
-
-- **Windows/Linux:** `Ctrl + K, Ctrl + S`
-- **macOS:** `Cmd + K, Cmd + S`
-
-También puedes editar directamente el archivo `keybindings.json`.
-
-### Abrir `keybindings.json`
-
-1. Abre la paleta de comandos.
-2. Busca `Preferences: Open Keyboard Shortcuts (JSON)`.
-3. Añade o modifica tus combinaciones.
-
-### Ejemplo de configuración
-
-```json
-[
-  {
-    "key": "ctrl+shift+alt+s",
-    "command": "workbench.action.files.saveAll"
-  }
-]
 
 ##
