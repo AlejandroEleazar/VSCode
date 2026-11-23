@@ -23,47 +23,59 @@ Una chuleta práctica para programar más rápido, navegar por tus proyectos, ed
 5. [Selección múltiple y cursores](#-selección-múltiple-y-cursores)
 6. [Navegación dentro del código](#-navegación-dentro-del-código)
 7. [Archivos y pestañas](#-archivos-y-pestañas)
-8. [Paneles y entorno de trabajo](#-paneles-y-entorno-de-trabajo)
+8. [Entorno de trabajo](#--entorno-de-trabajo)
 9. [Terminal integrada](#-terminal-integrada)
 10. [IntelliSense y refactorización](#-intellisense-y-refactorización)
 11. [Depuración](#-depuración-debug)
 12. [Plegar y desplegar código](#-plegar-y-desplegar-código)
 13. [Git y control de versiones](#-git-y-control-de-versiones)
 14. [Markdown](#-markdown)
-15. [Top 20: atajos imprescindibles](#-top-20-atajos-imprescindibles)
-16. [Consejos y recursos](#-consejos-y-recursos)
+15. [20 atajos utiles](#-20-atajos-utiles)
 
 ---
 
 ## 📌 Convenciones
 
+Los atajos se muestran separados por sistema operativo para facilitar su consulta.
+
 | Símbolo | Windows / Linux | macOS |
-|---|---|---|
-| `Ctrl` | Control | Control (según atajo) |
+|:---:|---|---|
+| `Ctrl` | Control | Control |
 | `Alt` | Alt | Option (`⌥`) |
 | `Shift` | Shift | Shift (`⇧`) |
-| `Win` | Windows | — |
+| `Win` | Tecla Windows | — |
 | `Cmd` | — | Command (`⌘`) |
 
 
-## 1. 🚀 Atajos esenciales
+> **Importante:** cuando aparecen dos combinaciones separadas por una coma, deben ejecutarse consecutivamente, no simultáneamente.
+
+**Ejemplo:** `Ctrl + K, Ctrl + S`
+
+Primero pulsa `Ctrl + K`, suelta las teclas y después pulsa `Ctrl + S`.
+
+---
+
+## 🚀 Atajos esenciales
+
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
-| Paleta de comandos | `Ctrl + Shift + P` | `Cmd + Shift + P` |
+| Abrir paleta de comandos | `Ctrl + Shift + P` | `Cmd + Shift + P` |
 | Buscar archivo | `Ctrl + P` | `Cmd + P` |
 | Guardar archivo | `Ctrl + S` | `Cmd + S` |
-| Guardar todos | `Ctrl + K, S` | `Cmd + Option + S` |
+| Guardar todos los archivos | `Ctrl + K, S` | `Cmd + Option + S` |
 | Deshacer | `Ctrl + Z` | `Cmd + Z` |
 | Rehacer | `Ctrl + Y` | `Cmd + Shift + Z` |
 | Cortar | `Ctrl + X` | `Cmd + X` |
 | Copiar | `Ctrl + C` | `Cmd + C` |
 | Pegar | `Ctrl + V` | `Cmd + V` |
 | Seleccionar todo | `Ctrl + A` | `Cmd + A` |
-| Configuración | `Ctrl + ,` | `Cmd + ,` |
-| Atajos de teclado | `Ctrl + K, Ctrl + S` | `Cmd + K, Cmd + S` |
+| Abrir configuración | `Ctrl + ,` | `Cmd + ,` |
+| Abrir atajos de teclado | `Ctrl + K, Ctrl + S` | `Cmd + K, Cmd + S` |
 
-## 2. 🔎 Navegación y búsqueda
+---
+
+## 🔎 Navegación y búsqueda
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
@@ -84,7 +96,10 @@ Una chuleta práctica para programar más rápido, navegar por tus proyectos, ed
 | Siguiente error o warning | `F8` | `F8` |
 | Error o warning anterior | `Shift + F8` | `Shift + F8` |
 
-## 3. ✏️ Edición de código
+---
+
+## ✏️ Edición de código
+
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
@@ -102,12 +117,13 @@ Una chuleta práctica para programar más rápido, navegar por tus proyectos, ed
 | Formatear documento | `Shift + Alt + F` | `Shift + Option + F` |
 | Formatear selección | `Ctrl + K, Ctrl + F` | `Cmd + K, Cmd + F` |
 | Eliminar espacios finales | `Ctrl + K, Ctrl + X` | `Cmd + K, Cmd + X` |
-| Activar/desactivar ajuste de línea | `Alt + Z` | `Option + Z` |
+| Activar / desactivar ajuste de línea | `Alt + Z` | `Option + Z` |
 | Saltar al corchete correspondiente | `Ctrl + Shift + \` | `Cmd + Shift + \` |
 
-## 4. 🎯 Selección múltiple y cursores
+---
 
-Una de las funciones más potentes de VS Code. Permite modificar varias partes del código simultáneamente.
+## 🎯 Selección múltiple y cursores
+
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
@@ -115,22 +131,15 @@ Una de las funciones más potentes de VS Code. Permite modificar varias partes d
 | Seleccionar todas las coincidencias | `Ctrl + Shift + L` | `Cmd + Shift + L` |
 | Añadir cursor arriba | `Ctrl + Alt + ↑` | `Cmd + Option + ↑` |
 | Añadir cursor abajo | `Ctrl + Alt + ↓` | `Cmd + Option + ↓` |
-| Insertar cursor al final de cada línea seleccionada | `Shift + Alt + I` | `Shift + Option + I` |
+| Cursor al final de cada línea seleccionada | `Shift + Alt + I` | `Shift + Option + I` |
 | Seleccionar línea actual | `Ctrl + L` | `Cmd + L` |
 | Deshacer último cursor | `Ctrl + U` | `Cmd + U` |
 | Seleccionar todas las apariciones de una palabra | `Ctrl + F2` | `Cmd + F2` |
 | Mover selección a siguiente coincidencia | `Ctrl + K, Ctrl + D` | `Cmd + K, Cmd + D` |
 
-Ejemplo práctico:
+---
 
-Si tienes diez variables con el nombre usuario y quieres cambiarlas simultáneamente:
-
-Selecciona usuario.
-Pulsa Ctrl + D (Windows/Linux) o Cmd + D (macOS) para seleccionar la siguiente coincidencia.
-Repite hasta seleccionar las coincidencias deseadas.
-Escribe el nuevo nombre.
-
-## 5. 🧭 Navegación dentro del código
+##  🧭 Navegación dentro del código
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
@@ -143,7 +152,9 @@ Escribe el nuevo nombre.
 | Seleccionar palabra siguiente | `Ctrl + Shift + →` | `Option + Shift + →` |
 | Seleccionar palabra anterior | `Ctrl + Shift + ←` | `Option + Shift + ←` |
 
-## 6. 📂 Archivos y pestañas
+---
+
+##  📂 Archivos y pestañas
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
@@ -159,7 +170,9 @@ Escribe el nuevo nombre.
 | Cerrar todas las pestañas | `Ctrl + K, Ctrl + W` | `Cmd + K, Cmd + W` |
 | Guardar como | `Ctrl + Shift + S` | `Cmd + Shift + S` |
 
-## 7. 🖥️ Paneles y entorno de trabajo
+---
+
+##  🖥️ Entorno de trabajo
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
@@ -179,7 +192,9 @@ Escribe el nuevo nombre.
 | Alejar zoom | `Ctrl + -` | `Cmd + -` |
 | Restaurar zoom | `Ctrl + 0` | `Cmd + 0` |
 
-## 8. 💻 Terminal integrada
+---
+
+##  💻 Terminal integrada
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
@@ -195,7 +210,9 @@ Escribe el nuevo nombre.
 
 > Algunos atajos de terminal dependen del shell utilizado (Bash, Zsh, PowerShell, etc.) y de la configuración de VS Code.
 
-## 9. 🧠 IntelliSense y refactorización
+---
+
+##  🧠 IntelliSense y refactorización
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
@@ -209,7 +226,9 @@ Escribe el nuevo nombre.
 | Aceptar sugerencia en línea | `Tab` | `Tab` |
 | Cambiar modo de lenguaje | `Ctrl + K, M` | `Cmd + K, M` |
 
-## 10. 🐞 Depuración (Debug)
+---
+
+##  🐞 Depuración (Debug)
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
@@ -223,7 +242,9 @@ Escribe el nuevo nombre.
 | Salir de función | `Shift + F11` | `Shift + F11` |
 | Pausar ejecución | `F6` | `F6` |
 
-## 11. 🔀 Plegar y desplegar código
+---
+
+##  🔀 Plegar y desplegar código
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
@@ -234,7 +255,9 @@ Escribe el nuevo nombre.
 | Plegar región recursivamente | `Ctrl + K, Ctrl + [` | `Cmd + K, Cmd + [` |
 | Desplegar región recursivamente | `Ctrl + K, Ctrl + ]` | `Cmd + K, Cmd + ]` |
 
-## 12. 🌿 Git y control de versiones
+---
+
+##  🌿 Git y control de versiones
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
@@ -244,8 +267,9 @@ Escribe el nuevo nombre.
 | Comparar archivos seleccionados | Desde el menú contextual | Desde el menú contextual |
 | Abrir diferencias de un archivo | Desde Source Control | Desde Source Control |
 
+---
 
-## 13. 📝 Markdown
+##  📝 Markdown
 
 | Acción | Windows / Linux | macOS |
 |---|---|---|
@@ -253,7 +277,9 @@ Escribe el nuevo nombre.
 | Abrir vista previa al lado | `Ctrl + K, V` | `Cmd + K, V` |
 | Formatear documento | `Shift + Alt + F` | `Shift + Option + F` |
 
-## 14. ⭐ 20 atajos utiles
+---
+
+##  ⭐ 20 atajos utiles
 
 Si estás empezando o quieres mejorar tu productividad, empieza por estos:
 
@@ -279,5 +305,7 @@ Si estás empezando o quieres mejorar tu productividad, empieza por estos:
 | 18 | Reabrir pestaña cerrada | `Ctrl + Shift + T` | `Cmd + Shift + T` |
 | 19 | Iniciar depuración | `F5` | `F5` |
 | 20 | Modo Zen | `Ctrl + K, Z` | `Cmd + K, Z` |
+
+---
 
 ##
